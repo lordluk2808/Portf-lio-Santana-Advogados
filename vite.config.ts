@@ -4,8 +4,9 @@ import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(() => {
+export default defineConfig(({command}) => {
   return {
+    base: command === 'build' ? '/Portf-lio-Santana-Advogados/' : '/',
     plugins: [
       react(),
       tailwindcss(),

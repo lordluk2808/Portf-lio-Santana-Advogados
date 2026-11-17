@@ -1,4 +1,5 @@
 import { Compass, Eye, MessageSquare, ShieldCheck } from 'lucide-react';
+import officeMeetingRoomImg from '../assets/images/office_meeting_room_1794935942770.jpg';
 import { METHODOLOGY_PILLARS, MethodologyPillar } from '../data/firmData';
 import { FadeInOnScroll } from './FadeInOnScroll';
 import { ResilientImage } from './WhatsAppIcon';
@@ -43,7 +44,7 @@ export function Methodology() {
             <figure className="rounded-lg overflow-hidden border border-slate-200 bg-slate-100">
               <div className="aspect-[16/10] sm:aspect-video w-full overflow-hidden">
                 <ResilientImage
-                  src="/src/assets/images/office_meeting_room_1794935942770.jpg"
+                  src={officeMeetingRoomImg}
                   alt="Sala de reuniões do escritório Fernando Santana Advogados com divisórias de vidro, mesa de madeira e iluminação natural."
                   fallbackTitle="Fernando Santana Advogados — Sala de Reuniões"
                   className="w-full h-full object-cover"

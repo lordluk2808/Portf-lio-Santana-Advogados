@@ -1,3 +1,8 @@
+import heroFernandoImg from '../assets/images/hero_fernando_santana_1794935943034.jpg';
+import camilaRibeiroImg from '../assets/images/associate_camila_ribeiro_1794935944242.jpg';
+import rafaelMendesImg from '../assets/images/associate_rafael_mendes_1794935944159.jpg';
+import beatrizVasconcelosImg from '../assets/images/associate_beatriz_vasconcelos_1794935944543.jpg';
+
 export interface PracticeArea {
   id: string;
   index: string;
@@ -191,7 +196,7 @@ export const FOUNDER: TeamMember = {
   oab: 'OAB/SP nº 184.920',
   specialty: 'Direito do Trabalho e Processo Civil',
   bio: 'Advogado inscrito na OAB/SP sob o nº 184.920. Há mais de 20 anos atua na defesa intransigente dos direitos dos trabalhadores, famílias e consumidores. Especialista em Direito do Trabalho e Processo Civil, pauta sua carreira pela ética, combatividade técnica e atendimento próximo ao cliente.',
-  image: '/src/assets/images/hero_fernando_santana_1794935943034.jpg',
+  image: heroFernandoImg,
   imageAlt:
     'Retrato institucional do Dr. Fernando Santana, sócio-fundador do escritório, em sala corporativa com iluminação natural.',
   isFounder: true,
@@ -205,7 +210,7 @@ export const ASSOCIATES: TeamMember[] = [
     oab: 'OAB/SP 312.408',
     specialty: 'Especialista em Direito de Família',
     bio: 'Pós-graduada em Direito Civil e das Famílias, com atuação dedicada à condução discreta de divórcios, guarda e planejamento sucessório.',
-    image: '/src/assets/images/associate_camila_ribeiro_1794935944242.jpg',
+    image: camilaRibeiroImg,
     imageAlt:
       'Retrato profissional da Dra. Camila Ribeiro, especialista em Direito de Família.',
   },
@@ -216,7 +221,7 @@ export const ASSOCIATES: TeamMember[] = [
     oab: 'OAB/SP 348.715',
     specialty: 'Especialista em Direito do Consumidor',
     bio: 'Mestre em Relações de Consumo, focado na defesa contra abusos bancários, negativas de planos de saúde e responsabilidade civil.',
-    image: '/src/assets/images/associate_rafael_mendes_1794935944159.jpg',
+    image: rafaelMendesImg,
     imageAlt:
       'Retrato profissional do Dr. Rafael Mendes, especialista em Direito do Consumidor.',
   },
@@ -227,7 +232,7 @@ export const ASSOCIATES: TeamMember[] = [
     oab: 'OAB/SP 379.104',
     specialty: 'Especialista em Direito do Trabalho',
     bio: 'Especializada em contencioso trabalhista estratégico, revisão técnica de verbas rescisórias e negociações individuais ou sindicais.',
-    image: '/src/assets/images/associate_beatriz_vasconcelos_1794935944543.jpg',
+    image: beatrizVasconcelosImg,
     imageAlt:
       'Retrato profissional da Dra. Beatriz Vasconcelos, especialista em Direito do Trabalho.',
   },
