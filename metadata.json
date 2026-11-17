@@ -1,0 +1,6 @@
+{
+  "name": "Fernando Santana Advogados",
+  "description": "Escritório de advocacia com mais de 20 anos de experiência nas áreas Trabalhista, de Família e do Consumidor. Atendimento ágil, humanizado e estratégico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
